@@ -1,4 +1,3 @@
-import React from 'react';
 import Price from '../price/Price';
 
 const PriceOption = () => {
@@ -81,6 +80,8 @@ const PriceOption = () => {
                 priceOption.map(option => <Price key={option.id} option={option}></Price>)
             }
             </div>
+
+
            
             
         </div>

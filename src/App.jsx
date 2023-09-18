@@ -1,6 +1,8 @@
 
 import './App.css'
+import AxiosExamole from './componenet/axios/AxiosExamole'
 import CustomNav from './componenet/customNav/CustomNav'
+import LineChart from './componenet/lineChat/LineChart'
 import PriceOption from './componenet/priceOption/PriceOption'
 
 
@@ -46,6 +48,8 @@ function App() {
   </div>
 </div> */}
 <PriceOption></PriceOption>
+<LineChart></LineChart>
+<AxiosExamole></AxiosExamole>
   
     </>
   )
